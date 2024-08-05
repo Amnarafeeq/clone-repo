@@ -460,6 +460,19 @@ background-color: white;
   filter: brightness(40%);
   opacity: 0.8;
 }
+.form-pic-animate{
+  position: absolute;
+  left: 18em;
+  bottom: 2em;
+  animation: animate 8s linear 0s infinite alternate;
+}
+@keyframes animate {
+  0% { bottom: 0px; }
+  30% { bottom: 30px; }
+  60% { bottom: 60px; }
+  80% { bottom: 40px; }
+  100% { bottom: 0px; }
+}
 .form #bg-logo{
   position: absolute;
   left: 27em;
